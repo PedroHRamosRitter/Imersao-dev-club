@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    
+
+    <title>Criador de Sites</title>
+  </head>
+  <!-- Css = Cascadong Style Sheet
+  Estilização do HTML-->
+
+  <!-- link - conectar
+     rel = relacionamento -> stylesheet (folha d eestilo)
+     href - referencia (arquivo)    -->
+
+  <body>
+    <p class="etiqueta">⚡Gerador de sites com Inteligência Artifiail</p>
+    <h1>
+      Crie sua página
+      <br />
+      <!--break (quebra)-->
+      <span>com um prompt</span>
+    </h1>
+    <!-- recorte -->
+
+    <p class="subtitulo">
+      Descreva o seu negócio e veja a IA criar um página profissional em
+      segundos.
+    </p>
+    <!-- 620 px -->
+    <div class="caixa-entrada">
+      <!-- 80% -->
+      <textarea class="texto-pagina"
+        placeholder="Descreva seu negócio. Ex: Cafeteria, Mercado, etc"
+      ></textarea>
+      <!-- Área de texto -->
+      <!-- 20% -->
+      <button onclick="gerarCodigo()">⚡Gerar</button>
+    </div>
+
+    <div class="caixa-resultado">
+      <p class="bloco-codigo">
+            
+      </p>
+
+      <iframe class="bloco-site"> </iframe>
+      <!-- Um site dentro -->
+    </div>
+  </body>
+
+  <script src="script.js">
+
+  </script>
+
+
+  </html>
